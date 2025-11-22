@@ -70,4 +70,4 @@ Translate messages between 10+ languages while preserving cultural context and i
 - 🤝 Team collaboration — Multiple team rooms and channels
 
 ## 🎨 Credits
-- Inspiration — The need for better multilingual team collaboration --> -->
+- Inspiration — The need for better multilingual team collaboration -->
