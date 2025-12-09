@@ -383,16 +383,16 @@ async function selectGroup(groupId) {
         
         await loadGroupMessages(groupId);
         
-        // mark messages as read
+        // mark messages as read / update the database
         await markGroupMessagesAsRead(groupId);
         
-        // update local messages array with readBy data
+        // update local state immediately / update messages array with readBy data
         if (group._messages && Array.isArray(group._messages)) {
             group._messages.forEach(msg => {
                 if (!msg.readBy) {
                     msg.readBy = {};
                 }
-                msg.readBy[currentUser.id] = true;
+                msg.readBy[currentUser.id] = true; //instant local update here
             });
         }
         
