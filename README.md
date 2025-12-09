@@ -179,7 +179,7 @@ MangoBridge/
 
 ## ⚙️ Installation
 
-1. Clone repo
+1. Clone the latest draft of this repo
 2. run `npm install`
 
 ## Usage
